@@ -1,0 +1,14 @@
+bedrock-agentcore
+boto3
+fastapi
+uvicorn
+python-multipart
+websockets
+pydantic
+python-dotenv
+seaborn
+python-pptx
+strands-agents>=0.1.8
+bedrock-agentcore-starter-toolkit
+strands-agents-tools
+seaborn
