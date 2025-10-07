@@ -165,7 +165,7 @@ start_backend() {
         fi
 
         # Start the backend with error logging
-        # python CoreAgentRuntime.py 2>&1 | tee ../backend.log &AGENT_CORE_PID=$!
+        python CoreAgentRuntime.py 2>&1 | tee ../backend.log &AGENT_CORE_PID=$!
         # echo "📝 Start Agent Core Runtime completed: $AGENT_CORE_PID"
 
         # Check if main.py exists
